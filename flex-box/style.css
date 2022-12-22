@@ -1,0 +1,12 @@
+/* style.css */
+
+.flex-container {
+    display: flex;
+} 
+
+.flex-container div {
+    background: blue;
+    border: 10px solid purple;
+    height: 100px;
+    flex: 1;
+}
