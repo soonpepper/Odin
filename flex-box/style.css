@@ -1,12 +1,28 @@
 /* style.css */
 
-.flex-container {
-    display: flex;
-} 
 
-.flex-container div {
+
+.container{
     background: blue;
     border: 10px solid purple;
-    height: 100px;
-    flex: 1;
+    padding: 10px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.item {
+    background: peachpuff;
+    border: orange;
+    height: 48px;
+    flex: auto;
+    padding: 4px;
+    justify-content: center;
+}
+
+p {
+    color: black;
+    
 }
