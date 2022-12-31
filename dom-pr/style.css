@@ -1,6 +1,6 @@
 /* style.css */
 
-*{
+body {
+    color: red;
     background-color: black;
-    color: white;
 }
